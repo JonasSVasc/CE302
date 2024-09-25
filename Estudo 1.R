@@ -40,3 +40,6 @@ valor_máximo = max(dados, na.rm = TRUE)
 dados[is.na(dados)] = valor_máximo
 dados
 
+dados2 = c(3,5,6,7,NA,NA,NA,NA)
+dados2[is.na(dados2)] = max(dados2, na.rm = TRUE)
+dados2
