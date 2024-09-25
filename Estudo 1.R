@@ -39,3 +39,4 @@ valor_máximo = max(dados, na.rm = TRUE)
 
 dados[is.na(dados)] = valor_máximo
 dados
+
